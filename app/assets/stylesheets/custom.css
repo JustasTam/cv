@@ -1,0 +1,39 @@
+/*!
+ * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons:CC BY 4.0, Fonts:SIL OFL 1.1, Code:MIT License)
+ */
+
+@font-face {
+    font-family: 'my_font_awesome';
+    font-style: normal;
+    font-weight: 900;
+    font-display: auto;
+    src: url(https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-solid-900.eot);
+    src: url(https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-solid-900.eot?#iefix) format('embedded-opentype'), url(https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-solid-900.woff2) format('woff2'), url(https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-solid-900.woff) format('woff'), url(https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-solid-900.ttf) format('truetype'), url(https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-solid-900.svg#fontawesome) format('svg');
+}
+
+@font-face {
+    font-family: 'my_font_awesome_b';
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url(https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-brands-400.eot);
+    src: url(https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-brands-400.eot?#iefix) format('embedded-opentype'), url(https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-brands-400.woff2) format('woff2'), url(https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-brands-400.woff) format('woff'), url(https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-brands-400.ttf) format('truetype'), url(https://use.fontawesome.com/releases/v5.13.0/webfonts/ffa-brands-400.svg#fontawesome) format('svg');
+}
+
+#btn_facebook:before,
+#btn_instagram:before,
+#btn_linkedin:before,
+#btn_youtube:before {
+  font-family: 'my_font_awesome','my_font_awesome_b';
+  margin-right: .6rem;
+  margin-left: 1rem;
+}
+
+#btn_facebook:before {content:'\f082'}
+#btn_instagram:before {content:'\f16d'}
+#btn_linkedin:before {content:'\f08c'}
+#btn_youtube:before {content:'\f167'}
+
+
+
