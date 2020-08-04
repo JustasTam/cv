@@ -24,7 +24,8 @@
 #btn_facebook:before,
 #btn_instagram:before,
 #btn_linkedin:before,
-#btn_youtube:before {
+#btn_youtube:before,
+#btn_bars:before {
   font-family: 'my_font_awesome','my_font_awesome_b';
   margin-right: .6rem;
   margin-left: 1rem;
@@ -34,6 +35,8 @@
 #btn_instagram:before {content:'\f16d'}
 #btn_linkedin:before {content:'\f08c'}
 #btn_youtube:before {content:'\f167'}
+#btn_bars:before {content:'\f0c9'}
 
 
 
+/*\f0e0*/
