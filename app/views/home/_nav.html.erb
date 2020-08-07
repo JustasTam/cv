@@ -1,0 +1,39 @@
+<header class="header_area">
+
+	<div class="logo d-flex justify-content-center align-items-center">
+		<a href=<%= root_path %>>
+			<img src="img/core-img/logo2.png" alt="">
+		</a>
+
+		<div class="nav-toggle">
+			<i class="fa fa-bars"></i>
+		</div>
+	</div>
+
+	<ul class="vcard-nav">
+		<li class=<%= is_active?('index') %>>
+			<%= link_to 'About', root_path %>
+		</li>
+
+		<li class=<%= is_active?('skills') %>>
+			<%= link_to 'Skills', skills_path %>
+		</li>
+
+		<li class=<%= is_active?('experience') %>>
+			<%= link_to 'Experience', experience_path %>
+		</li>
+
+		<li class=<%= is_active?('education') %>>
+			<%= link_to 'Education', education_path %>
+		</li>
+
+		<li class=<%= is_active?('portfolio') %>>
+			<%= link_to 'Portfolio', portfolio_path %>
+		</li>
+
+		<li class=<%= is_active?('testimonials') %>>
+			<%= link_to 'Testimonials', testimonials_path %>
+		</li>
+	</ul>
+
+</header>
